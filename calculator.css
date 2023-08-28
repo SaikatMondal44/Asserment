@@ -5,38 +5,56 @@ h1{
 .calc-main{
        text-align: center;
        border: 8px;
-       max-width: 400px;
+       max-width: 4500px;
        margin:0 auto ;
        margin-top: 10px;
-       box-shadow: 0 2px 3px red;
+       box-shadow: 0 3px 3px red;
        font-size: 0;
        background-color: black;
+       width: 380px;
        
 }
     
 
 .calc-main:hover{
-        box-shadow: 0 12px 20px yellow;
+        box-shadow: 0 15px 22px yellow;
+        
        }
 
 
 .calc-head #result{
-    width: 387px;
-    height: 75px;
+    width: 325px;
+    height: 65px;
     text-align: right;
     font-size: 30px;
     font-weight: bold;
     padding: 0px 5px;
     letter-spacing: 2px;
+    border-radius: 35px;
+    border-color: azure;
+    border-width: 5px;
+    margin-top: 13px;
+    margin-bottom: 14px;
+    margin-left: 5px;
+    margin-right: 5px;
+
 }
 
 .calc-body .btn{
-    width: 100px;
-    height: 85px;
+    width: 85px;
+    height: 90px;
+    top: 20px;
+    bottom: 10px;
     background-color:white;
     color: black;
     font-size: 20px;
     border-radius: 20px;
+    word-spacing: 25px;
+    margin-top: 4px;
+    margin-bottom: 5px;
+    margin-left: 4px;
+    margin-right: 4px;
+
 }
 
 .calc-body .btn:hover{
